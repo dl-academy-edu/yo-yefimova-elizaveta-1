@@ -1,0 +1,240 @@
+/* BANNER */
+.banner {
+    background-color: #EEE4DB;
+    height: 411px;
+    margin-top: 125px;
+    margin-left: 2px;
+}
+
+.banner__num {
+    margin: 17px 28px;
+
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 73px;
+
+    color: #1e06060d;
+}
+
+.banner__list {
+    margin-top: 10px;
+    margin-left: 31px;
+}
+
+.banner__list-btn-one {
+    width: 31px;
+    height: 3px;
+
+    background-color: #725F5B;
+}
+
+.banner__list-btn {
+    width: 31px;
+    height: 3px;
+
+    background-color: #D6CAC2;
+}
+
+.banner__title {
+    width: 307px;
+    height: 88px;
+    margin-top: -72px;
+    margin-left: 133px;
+
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.banner__text {
+    margin-top: -12px;
+    margin-left: 133.4px;
+
+    font-family: 'Crimson Text';
+    font-style: oblique;
+    font-weight: 400;
+    font-size: 17.5px;
+    line-height: 26px;
+}
+
+.banner__btn {
+    margin-left: 131px;
+    margin-bottom: 89px;
+    margin-top: 22px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 9px 22px;
+    gap: 10px;
+    background: #000000;
+    
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.banner__img {
+    position: absolute;
+    left: 687px;
+    top: 142px;
+}
+
+.banner__add {
+    background-color: #C29974;
+    padding: 11px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* Category Products */
+.products__title{
+    margin-left: 2px;
+    margin-top: 91px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+
+
+.porducts__list-item {
+    display: inline-flex;
+    margin-top: 30px;
+    gap: 0px 20px;
+}
+
+.porducts__link {
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.porducts__img-one {
+    padding: 46px 18px;
+    background-color: #DBE4DB;
+}
+
+.porducts__img-two {
+    padding: 13px 36px;
+    background-color: #EADDD3;
+}
+
+.porducts__img-three {
+    padding: 0px 5px;
+    background-color: #F8F2DA;
+}
+
+.porducts__img-four {
+    padding: 16px 20px;
+    background-color: #D5D4E1;
+}
+
+/* services */
+.services {
+    width: 1080px;
+    height: 559px;
+    display: flex;
+    margin-top: 90px;
+}
+
+.services__img {
+    margin-right: 120px;
+}
+
+.services__info-title {
+    margin-top: 30px;
+    /* margin-left: 61px; */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.services__info-btn {
+    display: block;
+    margin: 6px 0px 22px;
+
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    background-color: #ffffff;
+}
+
+/* .services__info-btn:default {
+    background-color: #70bbdc33;
+} */
+
+
+
+.services__info-text {
+    margin: 8px 0px 15px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.services__btn {
+    margin-top: 11px;
+    padding: 9px 22px;
+    background-color: #000000;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+/* partners */
+.partners {
+    display: flex;
+    margin-top: 91px;
+    gap: 0px 127px;
+}
+
+/* additional */
+.additional {
+    display: inline-flex;
+    width: 1143px;
+    height: 359px;
+    margin-top: 116px;
+    gap: 0px 57px;
+}
+
+.additional__info {
+    height: 228px;
+    background-color: #e1f0f7;
+}
+
+.additional__contacts {
+    height: 209px;
+    background-color: #e1f0f7;
+}
